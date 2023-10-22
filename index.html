@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="chat-container">
+    <textarea id="code-input" placeholder="Enter your code"></textarea>
+    <select id="target-language">
+        <option value="cpp">C++</option>
+        <option value="java">Java</option>
+        <!-- Add more languages as needed -->
+    </select>
+    <button onclick="translateCode()">Translate</button>
+    <div id="translated-code"></div>
+</div>
+        <input type="text" id="user-input" placeholder="Type your message..." onkeydown="sendMessage(event)">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
